@@ -56,4 +56,14 @@
       </plugin>
     </plugins>
   </build>
+  <distributionManagement>
+    <snapshotRepository>
+      <id>kie</id>
+      <url>http://192.168.0.4:8082/repository/bm-drools-snapshot/</url>
+    </snapshotRepository>
+    <repository>
+      <id>kie</id>
+      <url>http://192.168.0.4:8082/repository/bm-drools-release/</url>
+    </repository>
+  </distributionManagement>
 </project>
