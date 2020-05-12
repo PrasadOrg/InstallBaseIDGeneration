@@ -4,10 +4,20 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.ordermanagement</groupId>
   <artifactId>InstallBaseIDGeneration</artifactId>
-  <version>1.0.0-SNAPSHOT</version>
+  <version>1.0.0</version>
   <packaging>kjar</packaging>
   <name>InstallBaseIDGeneration</name>
   <description>InstallBaseIDGeneration</description>
+  <distributionManagement>
+    <repository>
+      <id>kie-workbench</id>
+      <url>http://192.168.0.4:8082/repository/bm-drools-release/</url>
+    </repository>
+    <snapshotRepository>
+      <id>kie-workbench</id>
+      <url>http://192.168.0.4:8082/repository/bm-drools-snapshot/</url>
+    </snapshotRepository>
+  </distributionManagement>
   <dependencies>
     <dependency>
       <groupId>org.kie</groupId>
@@ -56,14 +66,4 @@
       </plugin>
     </plugins>
   </build>
-  <distributionManagement>
-    <snapshotRepository>
-      <id>kie-workbench</id>
-      <url>http://192.168.0.4:8082/repository/bm-drools-snapshot/</url>
-    </snapshotRepository>
-    <repository>
-      <id>kie-workbench</id>
-      <url>http://192.168.0.4:8082/repository/bm-drools-release/</url>
-    </repository>
-  </distributionManagement>
 </project>
