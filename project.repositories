@@ -12,16 +12,16 @@
       <include>true</include>
       <metadata>
         <id>kie-workbench</id>
-        <url>http://192.168.0.4:8082/repository/bm-drools-snapshot/</url>
-        <source>DISTRIBUTION_MANAGEMENT</source>
+        <url>http://192.168.0.4:8082/repository/bm-drools/</url>
+        <source>SETTINGS</source>
       </metadata>
     </repository>
     <repository>
       <include>true</include>
       <metadata>
         <id>kie-workbench</id>
-        <url>http://192.168.0.4:8082/repository/bm-drools/</url>
-        <source>SETTINGS</source>
+        <url>http://192.168.0.4:8082/repository/bm-drools-release/</url>
+        <source>DISTRIBUTION_MANAGEMENT</source>
       </metadata>
     </repository>
     <repository>
