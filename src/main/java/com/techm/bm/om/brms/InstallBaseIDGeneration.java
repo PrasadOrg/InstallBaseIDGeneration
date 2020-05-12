@@ -6,12 +6,44 @@ package com.techm.bm.om.brms;
 
 public class InstallBaseIDGeneration implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public InstallBaseIDGeneration() {
-    }
+	private java.lang.String productName;
+	private java.lang.String attribute;
+	private java.lang.String skuPrefix;
 
+	public InstallBaseIDGeneration() {
+	}
 
+	public java.lang.String getProductName() {
+		return this.productName;
+	}
 
+	public void setProductName(java.lang.String productName) {
+		this.productName = productName;
+	}
+
+	public java.lang.String getAttribute() {
+		return this.attribute;
+	}
+
+	public void setAttribute(java.lang.String attribute) {
+		this.attribute = attribute;
+	}
+
+	public java.lang.String getSkuPrefix() {
+		return this.skuPrefix;
+	}
+
+	public void setSkuPrefix(java.lang.String skuPrefix) {
+		this.skuPrefix = skuPrefix;
+	}
+
+	public InstallBaseIDGeneration(java.lang.String productName,
+			java.lang.String attribute, java.lang.String skuPrefix) {
+		this.productName = productName;
+		this.attribute = attribute;
+		this.skuPrefix = skuPrefix;
+	}
 
 }
