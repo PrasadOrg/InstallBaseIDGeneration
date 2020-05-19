@@ -3,22 +3,6 @@
     <repository>
       <include>true</include>
       <metadata>
-        <id>local</id>
-        <url>/opt/jboss/.m2/repository</url>
-        <source>LOCAL</source>
-      </metadata>
-    </repository>
-    <repository>
-      <include>true</include>
-      <metadata>
-        <id>kie-workbench</id>
-        <url>http://192.168.0.4:8082/repository/bm-drools/</url>
-        <source>SETTINGS</source>
-      </metadata>
-    </repository>
-    <repository>
-      <include>true</include>
-      <metadata>
         <id>kie-workbench</id>
         <url>http://192.168.0.4:8082/repository/bm-drools-release/</url>
         <source>DISTRIBUTION_MANAGEMENT</source>
@@ -30,6 +14,22 @@
         <id>central</id>
         <url>https://repo.maven.apache.org/maven2</url>
         <source>PROJECT</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
+        <id>local</id>
+        <url>/opt/jboss/.m2/repository</url>
+        <source>LOCAL</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
+        <id>kie-workbench</id>
+        <url>http://192.168.0.4:8082/repository/bm-drools/</url>
+        <source>SETTINGS</source>
       </metadata>
     </repository>
   </repositories>
